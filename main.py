@@ -1,4 +1,4 @@
-$ git push -f origin master
+
 import random
 from time import localtime
 from requests import get, post
