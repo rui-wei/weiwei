@@ -26,7 +26,7 @@ def get_access_token():
     except KeyError:
         print("获取access_token失败，请检查app_id和app_secret是否正确")
         os.system("pause")
-        sys.exit(1)
+        sys.exit
     # print(access_token)
     return access_token
 
